@@ -60,6 +60,9 @@ export class TodoListApplication extends BootMixin(
     // authentication
     registerAuthenticationStrategy(this, JWTAuthenticationStrategy);
 
+    // Configure file upload with multer options
+    this.configureFileUpload();
+
     this.projectRoot = __dirname;
     // Customize @loopback/boot Booter Conventions here
     this.bootOptions = {
@@ -99,10 +102,11 @@ export class TodoListApplication extends BootMixin(
   protected configureFileUpload() {
     const multerOptions: multer.Options = {
       storage: multer.diskStorage({
-        // Upload files to `.sandbox`
-        destination: path.join(__dirname, '../.sandbox'),
+        // Upload files to `storage`
+        destination: path.join(__dirname, '../storage'),
         // Use the original file name as is
         filename: (req, file, cb) => {
+          console.log("ghj")
           cb(null, file.originalname);
         },
       }),

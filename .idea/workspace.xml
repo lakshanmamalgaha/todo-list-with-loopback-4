@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="032157ad-1e24-4b98-84e1-8e1292a1c703" name="Default Changelist" comment="" />
+    <list default="true" id="032157ad-1e24-4b98-84e1-8e1292a1c703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/blog-image.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/file-download.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/file-test.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/image.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/Screenshot_20200105-182914.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/file-upload.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/file-upload.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/file-upload.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/file-upload.service.ts" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,26 +29,37 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZJOt2KOskGtHYCwIYAOnBSfssy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="ts.external.directory.path" value="C:\Users\ASUS\Documents\bikemart\todo-list\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\services" />
-      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src" />
-      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\controllers" />
-      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\repositories" />
-      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\repositories" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\controllers" />
+      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\services" />
+      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src" />
+      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\repositories" />
+      <recent name="C:\Users\ASUS\Documents\bikemart\todo-list\src\models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -60,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584553948638</updated>
-      <workItem from="1584553969542" duration="7918000" />
+      <workItem from="1584553969542" duration="9885000" />
+      <workItem from="1584618894722" duration="8917000" />
     </task>
     <servers />
   </component>
@@ -71,5 +96,21 @@
         <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
